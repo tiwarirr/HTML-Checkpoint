@@ -137,6 +137,7 @@ header {
   padding-top: 16px;
   padding-bottom: 16px;
   text-align: center;
+  margin-bottom: 32px;
 }
 header a {
   text-decoration: none;
@@ -151,6 +152,11 @@ header a:hover {
 .container {
   padding-left: 200px;
   padding-right: 200px;
+  text-align: center;
+}
+.container-blog {
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center;
 }
 .container h1 {
@@ -223,7 +229,95 @@ hr {
   box-sizing: border-box;
   margin: 10px;
 }
-.br{
-    border: 2px solid black;
-    font-size: 0px;
+.br {
+  border: 2px solid black;
+  font-size: 0px;
+}
+.article1 {
+  margin: 0 auto;
+}
+.article1 img {
+  width: 350px;
+  height: 300px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.article1 .story {
+  width: 350px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: text-bottom;
+
+}
+.article1 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.25;
+}
+.article1 h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.article1 .lnk{
+    text-align: left;
+    margin-top: 14px;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.lnk a{
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.article2 {
+  margin: 20px auto;
+}
+.article2 img {
+    display: block;
+  width: 350px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.article2 .story {
+  width: 350px;
+  height: 300px;
+}
+.article2 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.25;
+}
+.article2 h2{
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.article2 .lnk{
+    text-align: left;
+    margin-top: 14px;
+    /* background-color: green; */
+    /* width: 100px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50px; */
+
+}
+.article2 .lnk a{
+    /* display: inline-block; */
+    padding: 6px 0px;
+    text-decoration:underline;
+    color:green;
+}
+.row2{
+    display: inline-block;
 }
